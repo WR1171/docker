@@ -107,7 +107,7 @@ WORKDIR /opencog
 
 # Change line below on rebuild. Will use Docker cache up to this line,
 # twigging this date will update the opencog sources.
-ENV LAST_SOFTWARE_UPDATE 2016-03-10
+ENV LAST_SOFTWARE_UPDATE 2019-01-01
 
 # Git pull for all packages
 RUN cd /opencog/ && find . -maxdepth 1 -mindepth 1 -type d \
