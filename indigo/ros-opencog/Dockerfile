@@ -8,7 +8,7 @@ FROM opencog/ros-indigo-base
 MAINTAINER Linas Vepštas "linasvepstas@gmail.com"
 
 # Install required packages
-ENV LAST_OS_UPDATE 2016-02-18
+ENV LAST_OS_UPDATE 2019-01-18
 RUN apt-get -y update
 RUN apt-get -y upgrade
 # Base stuff for cogutil. All on one line, to avoid error
@@ -55,7 +55,7 @@ RUN (unzip jwnl14-rc2.zip jwnl14-rc2/jwnl.jar ; \
 WORKDIR /src
 
 # Touch this tag to grab the latest version of LinkGrammar.
-ENV LAST_LG_UPDATE 2016-02-18
+ENV LAST_LG_UPDATE 2019-01-18
 
 # Download the current released version of link-grammar.
 # We do NOT want to git-clone this; the git version is unstable;
